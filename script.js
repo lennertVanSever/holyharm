@@ -137,6 +137,43 @@ fetch('./data.json')
                         }
                     }
                 }).addTo(map);
+
+
+                // // Step 1: Calculate the total victims per continent
+                // let continentTotals = {};
+                // data.forEach(item => {
+                //     if (item.continent && item.victims !== null) {
+                //         if (!continentTotals[item.continent]) {
+                //             continentTotals[item.continent] = 0;
+                //         }
+                //         continentTotals[item.continent] += item.victims;
+                //     }
+                // });
+
+                // // Sort continents by the number of victims
+                // const sortedContinents = Object.entries(continentTotals).sort((a, b) => b[1] - a[1]);
+
+                // // Mapping of continents to emojis
+                // const continentEmojis = {
+                //     'Africa': '🌍',
+                //     'Asia': '🌏',
+                //     'Europe': '🌍',
+                //     'North America': '🌎',
+                //     'Latin America': '🌎',
+                //     'Oceania': '🌏'
+                // };
+
+                // // Update the HTML to display total victims per continent
+                // const continentTotalsDiv = document.getElementById('continent-totals');
+                // let htmlContent = '<ul>';
+                // sortedContinents.forEach(([continent, total]) => {
+                //     const emoji = continentEmojis[continent] || '';
+                //     htmlContent += `<li>${emoji} ${continent}: ${total.toLocaleString()} victims</li>`;
+                // });
+                // htmlContent += '</ul>';
+                // continentTotalsDiv.innerHTML = htmlContent;
+
+
             }).then(() => {
                 removeOverlappingTooltips(tooltipData);
             });
@@ -196,3 +233,4 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+

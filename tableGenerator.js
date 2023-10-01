@@ -1,8 +1,11 @@
 const beautify = require('js-beautify').html;
 const fs = require('fs');
 const url = require('url');
+const { flag } = require('country-emoji');
 
-const data = require('./data.json');
+let data = require('./data.json');
+
+data = data.filter(item => item.victims !== null);
 
 const isURL = (str) => {
     try {
@@ -12,44 +15,65 @@ const isURL = (str) => {
         return false;
     }
 };
-
 const uniqueReferences = (references) => {
-    let urlRefs = new Set();
+    let urlMap = new Map();
     let textRefs = [];
 
     references.forEach(reference => {
         if (isURL(reference)) {
             const urlObj = new URL(reference);
-            urlRefs.add(urlObj.hostname.replace('www.', ''));
+            urlMap.set(urlObj.hostname.replace('www.', ''), reference);
         } else {
             textRefs.push(reference.split(' ').slice(0, 3).join(' '));
         }
     });
 
-    // Join textual references and truncate if necessary
     if (textRefs.length > 0) {
         textRefs = textRefs.join(', ');
-        if (textRefs.length > 20) {
-            textRefs = textRefs.slice(0, 20) + '...';
+        if (textRefs.length > 40) {
+            textRefs = textRefs.slice(0, 40) + '...';
         }
     } else {
         textRefs = '';
     }
 
-    return [...urlRefs, textRefs].filter(Boolean).join(', ');
+    const urlLinks = [...urlMap.entries()].map(([hostname, url]) => `<a href="${url}">${hostname}</a>`).join(', ');
+
+    return [urlLinks, textRefs].filter(Boolean).join(', ');
 };
 
+
+const continentOrder = [
+    "Europe",
+    "North America",
+    "Latin America",
+    "Asia",
+    "Oceania",
+    "Africa"
+];
 
 const generateTableRows = (data) => {
-    return data.map(row => `
-      <tr>
-        <td>${row.country}</td>
-        <td>${row.victims === null ? 'N/A' : row.victims}</td>
-        <td>${uniqueReferences(row.references)}</td>
-      </tr>
-    `).join('');
-};
+    data.sort((a, b) => {
+        const continentA = continentOrder.indexOf(a.continent);
+        const continentB = continentOrder.indexOf(b.continent);
 
+        if (continentA !== continentB) {
+            return continentA - continentB;
+        }
+
+        // If countries are from the same continent, sort by number of victims
+        return (b.victims || 0) - (a.victims || 0);
+    });
+
+    return data.map(row => `
+    <tr>
+      <td>${flag(row.country) || ''} ${row.country}</td>
+      <td>${row.victims === null ? 'N/A' : row.victims.toLocaleString()}</td>
+      <td>${row.victims && row.population ? ((row.victims / row.population) * 100000).toFixed(2) : 'N/A'}</td>
+      <td>${uniqueReferences(row.references)}</td>
+    </tr>
+  `).join('');
+};
 
 const generateTableHTML = (tableRows) => `
   <table border="1">
@@ -57,6 +81,7 @@ const generateTableHTML = (tableRows) => `
       <tr>
         <th>Country</th>
         <th>Victims</th>
+        <th>Victims per 100,000</th>
         <th>References</th>
       </tr>
     </thead>
