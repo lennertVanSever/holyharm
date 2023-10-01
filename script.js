@@ -80,6 +80,42 @@ let tooltipData = [];
 let initialTooltipData = [];
 
 
+const isURL = (str) => {
+    try {
+        new URL(str);
+        return true;
+    } catch (e) {
+        return false;
+    }
+};
+
+const uniqueReferences = (references) => {
+    let urlMap = new Map();
+    let textRefs = [];
+
+    references.forEach(reference => {
+        if (isURL(reference)) {
+            const urlObj = new URL(reference);
+            urlMap.set(urlObj.hostname.replace('www.', ''), reference);
+        } else {
+            textRefs.push(reference.split(' ').slice(0, 3).join(' '));
+        }
+    });
+
+    if (textRefs.length > 0) {
+        textRefs = textRefs.join(', ');
+        if (textRefs.length > 40) {
+            textRefs = textRefs.slice(0, 40) + '...';
+        }
+    } else {
+        textRefs = '';
+    }
+
+    const urlLinks = [...urlMap.entries()].map(([hostname, url]) => `<a href="${url}">${hostname}</a>`).join(', ');
+
+    return [urlLinks, textRefs].filter(Boolean).join(', ');
+};
+
 fetch('./data.json')
     .then((response) => response.json())
     .then((data) => {
@@ -108,17 +144,21 @@ fetch('./data.json')
                                 const bounds = layer.getBounds();
                                 latlng = bounds.getCenter();
                             }
-                            layer.bindPopup(`<b>${countryData.country}</b><br>Victims: ${formattedVictims}`, {
-                                offset: L.point(0, -10)
+
+                            let referencesHtml = '';
+                            if (countryData.references) {
+                                referencesHtml = 'Reference: ' + uniqueReferences(countryData.references);
+                            }
+
+                            layer.bindPopup(`<b>${countryData.country}</b><br>Victims: ${formattedVictims}<br>${referencesHtml}`, {
+                                offset: L.point(0, -10),
                             });
+
                             layer.on('mousemove', function (e) {
                                 const latlng = e.latlng;
                                 const popup = this.getPopup();
                                 popup.options.offset = L.point(0, 10);
                                 // this.setLatLng(latlng).openPopup();
-                            });
-                            layer.on('mouseout', function () {
-                                this.closePopup();
                             });
                             const tooltip = L.tooltip({
                                 permanent: true,
