@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Victims per Country</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            background-color: rgb(230, 230, 230);
+        }
+
+        .country-label {
+            padding: 2px !important;
+            background-color: transparent;
+            border: none;
+            box-shadow: none;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            font-size: 13px;
+        }
+
+
+        .leaflet-popup-tip {
+            display: none;
+        }
+
+
+        .legend-list {
+            list-style-type: none;
+            display: flex;
+            margin-right: 0px !important;
+            margin-bottom: -17px !important;
+            z-index: 1000;
+        }
+
+        .legend-list li {
+            padding: 3px;
+            padding-left: 7px;
+            padding-right: 5px;
+            font-size: 13px;
+
+            background-color: transparent;
+            border: none;
+            box-shadow: none;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Reported sexual abuse by the catholic church</h1> -->
+    <div id="map" style="height: 600px;"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
