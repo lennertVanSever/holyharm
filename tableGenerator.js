@@ -76,7 +76,7 @@ const generateTableRows = (data) => {
 };
 
 const generateTableHTML = (tableRows) => `
-  <table border="1">
+  <table>
     <thead>
       <tr>
         <th>Country</th>
@@ -91,7 +91,93 @@ const generateTableHTML = (tableRows) => `
   </table>
 `;
 
+
 const tableRows = generateTableRows(data);
 const tableHTML = generateTableHTML(tableRows);
+const generateStatsHTML = (continentTotals, totalVictims) => {
+  // Define a mapping between continents and their corresponding emojis and colors
+  const continentData = {
+    "Europe": { emoji: "🌍", color: "#800026" },
+    "North America": { emoji: "🌎", color: "#FEB24C" },
+    "Latin America": { emoji: "🌎", color: "#FEB24C" },
+    "Asia": { emoji: "🌏", color: "#FEB24C" },
+    "Oceania": { emoji: "🌏", color: "#FEB24C" },
+    "Africa": { emoji: "🌍", color: "#FEB24C" }
+  };
 
-fs.writeFileSync('table.html', beautify(tableHTML, { indent_size: 2 }));
+  // Sort the continents by the number of victims, in descending order
+  const sortedContinents = Object.keys(continentTotals).sort((a, b) => continentTotals[b] - continentTotals[a]);
+
+  // Generate the HTML
+  let html = '';
+  for (const continent of sortedContinents) {
+    const victims = continentTotals[continent];
+    const percentage = ((victims / totalVictims) * 100).toFixed(2);
+    const colorBox = continentData[continent].color;
+    const emoji = continentData[continent].emoji;
+
+    html += `
+      <li>
+        <span class="color-box" style="background-color: ${colorBox};"></span>
+        ${emoji} ${continent}: ${victims.toLocaleString()} victims (${percentage}%)
+      </li>
+    `;
+  }
+
+  // Add total victims
+  html += `
+    <li>
+      <span class="color-box" style="background-color: transparent;"></span>
+      🌐 World: ${totalVictims.toLocaleString()} victims (100%)
+    </li>
+  `;
+
+  return html;
+};
+
+// Initialize counters
+const continentTotals = {
+  "Europe": 0,
+  "North America": 0,
+  "Latin America": 0,
+  "Asia": 0,
+  "Oceania": 0,
+  "Africa": 0
+};
+
+let totalVictims = 0;
+
+// Calculate the totals
+data.forEach(item => {
+  if (item.continent && item.victims !== null) {
+    // console.log(item)
+    const { victims } = item;
+    continentTotals[item.continent] += victims;
+    totalVictims += victims;
+  }
+});
+fs.readFile('index.html', 'utf8', (err, content) => {
+  if (err) {
+    console.error('Error reading index.html:', err);
+    return;
+  }
+
+  // Locate the container where you want to update the statistics
+  const startTag = '<ul>';
+  const endTag = '</ul>';
+  const start = content.indexOf(startTag);
+  const end = content.indexOf(endTag) + endTag.length;
+
+  if (start === -1 || end === -1) {
+    console.error('Container tags not found in index.html');
+    return;
+  }
+
+  const newStatsHTML = generateStatsHTML(continentTotals, totalVictims);
+
+  // Replace the existing statistics with the new ones
+  const newContent = content.slice(0, start) + startTag + newStatsHTML + content.slice(end - endTag.length);
+
+  // Write the updated HTML back to index.html
+  fs.writeFileSync('index.html', beautify(newContent, { indent_size: 2 }));
+});
