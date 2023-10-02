@@ -1,0 +1,229 @@
+* {
+    padding: 0;
+}
+
+html {
+    background-color: AliceBlue;
+}
+
+html,
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#map {
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+
+.country-label {
+    padding: 2px !important;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-size: 10px;
+}
+
+
+.leaflet-popup-tip {
+    display: none;
+}
+
+
+.legend-list {
+    list-style-type: none;
+    display: flex;
+    margin-right: 0px !important;
+    margin-bottom: -17px !important;
+    z-index: 1000;
+}
+
+.legend-list li {
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 5px;
+    font-size: 13px;
+
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+thead {
+    color: black;
+}
+
+th,
+td {
+    padding: 12px 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+}
+
+section h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+section p {
+    margin-top: 0px;
+}
+
+#continent-totals {
+    display: flex;
+    gap: 200px;
+}
+
+.color-box {
+    display: inline-block;
+    width: 18px;
+    height: 12px;
+    margin-right: 7px;
+}
+
+#continent-totals ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#continent-totals li {
+    padding: 15px;
+    padding-left: 0;
+    font-size: 18px;
+}
+
+
+
+#container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.block {
+    position: absolute;
+}
+
+p {
+    max-width: 700px;
+}
+
+.download-links {
+    list-style: none;
+    padding: 0;
+}
+
+.download-links li {
+    margin-top: 5px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.github-logo {
+    width: 25px;
+    /* or whatever size you want */
+    height: auto;
+}
+
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+    }
+
+
+
+    #map {
+        height: calc(100vh - 250px);
+    }
+
+    section {
+        margin: 5px;
+    }
+
+    #continent-totals li {
+        padding: 10px;
+        padding-left: 0px;
+    }
+
+    #continent-totals {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    #continent-totals ul {
+        font-size: 16px;
+    }
+
+    .pie-chart {
+        width: 100%;
+    }
+
+
+    table {
+        width: 100vw;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    th,
+    td {
+        padding: 6px 10px;
+    }
+
+    /* Offset the table to the left to counteract the parent's padding */
+    table {
+        margin-left: -13px;
+        /* Adjust this value based on the parent's padding */
+    }
+}
