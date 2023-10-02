@@ -37,6 +37,46 @@
             border: 1px solid #ddd;
         }
 
+        .loader {
+            height: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .loader-svg {
+            width: 64px;
+            height: 64px;
+            animation: lds-circle 5s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        }
+
+        .loader-rect {
+            fill: #800026;
+        }
+
+        @keyframes lds-circle {
+
+            0%,
+            100% {
+                animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+            }
+
+            0% {
+                transform: rotateY(0deg);
+            }
+
+            50% {
+                transform: rotateY(1800deg);
+                animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+            }
+
+            100% {
+                transform: rotateY(3600deg);
+            }
+        }
+
+
+
         .country-label {
             padding: 2px !important;
             background-color: transparent;
@@ -60,6 +100,8 @@
             margin-right: 0px !important;
             margin-bottom: -17px !important;
             z-index: 1000;
+            border-top: 1px solid white;
+            border-left: 1px solid white;
         }
 
         .legend-list li {
@@ -202,6 +244,12 @@
                 height: calc(100vh - 250px);
             }
 
+            .legend-list li {
+                text-wrap: nowrap;
+                padding-left: 3px;
+                font-size: 10px;
+            }
+
             section {
                 margin: 5px;
             }
@@ -226,6 +274,8 @@
             }
 
 
+
+
             table {
                 width: 100vw;
                 margin: 0;
@@ -242,13 +292,23 @@
                 margin-left: -13px;
                 /* Adjust this value based on the parent's padding */
             }
+
         }
     </style>
 </head>
 
 <body>
     <h1>​† Reported Child Abuse in the Catholic Church ​† </h1>
-    <div id="map" style="height: calc(100vh - 200px)"></div>
+    <div id="map" style="height: calc(100vh - 200px)">
+        <div class="loader" id="loader">
+            <svg class="loader-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <rect class="loader-rect" x="45" y="0" width="10" height="100" />
+                <rect class="loader-rect" x="15" y="25" width="70" height="10" />
+            </svg>
+        </div>
+
+    </div>
+
     <section id="continent-totals-section">
         <h2>Total Victims per Continent</h2>
         <div id="continent-totals">

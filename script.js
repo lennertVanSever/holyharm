@@ -119,6 +119,7 @@ const createAndStoreTooltip = (latlng, formattedVictims) => {
 const fetchDataAndRender = async () => {
     const data = await fetch('./data/data.json').then(res => res.json());
     const geojson = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson').then(res => res.json());
+    document.getElementById('loader').style.display = 'none';
     L.geoJSON(geojson, {
         style: feature => ({
             fillColor: getColor(data.find(item => item.country === feature.properties.ADMIN)?.victims),
@@ -190,7 +191,7 @@ legend.onAdd = function (map) {
             `<li style="background-color:${range.color};" >> ${range.min.toLocaleString()}</li>`
         );
     }
-    labels.push('<li style="background-color:white">No Data</li>');
+    labels.push(`<li style="background-color:${getColor(null)}">No Data</li>`);
     div.innerHTML = labels.join('');
     return div;
 };
