@@ -91,9 +91,6 @@ const generateTableHTML = (tableRows) => `
   </table>
 `;
 
-
-const tableRows = generateTableRows(data);
-const tableHTML = generateTableHTML(tableRows);
 const generateStatsHTML = (continentTotals, totalVictims) => {
   // Define a mapping between continents and their corresponding emojis and colors
   const continentData = {
@@ -132,6 +129,8 @@ const generateStatsHTML = (continentTotals, totalVictims) => {
     </li>
   `;
 
+  html = `<ul>${html}</ul>`;
+
   return html;
 };
 
@@ -162,21 +161,25 @@ fs.readFile('index.html', 'utf8', (err, content) => {
     return;
   }
 
-  // Locate the container where you want to update the statistics
-  const startTag = '<ul>';
-  const endTag = '</ul>';
-  const start = content.indexOf(startTag);
-  const end = content.indexOf(endTag) + endTag.length;
+  // For statistics
+  const statsStart = content.indexOf('<ul>');
+  const statsEnd = content.indexOf('</ul>') + 5; // +5 to include '</ul>'
 
-  if (start === -1 || end === -1) {
-    console.error('Container tags not found in index.html');
+  // For table
+  const tableStart = content.indexOf('<table>');
+  const tableEnd = content.indexOf('</table>') + 8; // +8 to include '</table>'
+
+  if (statsStart === -1 || statsEnd === -1 || tableStart === -1 || tableEnd === -1) {
+    console.error('Tags not found in index.html');
     return;
   }
 
+
   const newStatsHTML = generateStatsHTML(continentTotals, totalVictims);
+  const tableHTML = generateTableHTML(generateTableRows(data));
 
   // Replace the existing statistics with the new ones
-  const newContent = content.slice(0, start) + startTag + newStatsHTML + content.slice(end - endTag.length);
+  const newContent = content.slice(0, statsStart) + newStatsHTML + content.slice(statsEnd, tableStart) + tableHTML + content.slice(tableEnd);
 
   // Write the updated HTML back to index.html
   fs.writeFileSync('index.html', beautify(newContent, { indent_size: 2 }));
