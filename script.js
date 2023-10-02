@@ -132,7 +132,7 @@ const createAndStoreTooltip = (latlng, victims) => {
 // Fetch and Render Data
 const fetchDataAndRender = async () => {
     const data = await fetch('./data/data.json').then(res => res.json());
-    const geojson = await fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson').then(res => res.json());
+    const geojson = await fetch('./countryBorders.geojson').then(res => res.json());
     document.getElementById('loader').style.display = 'none';
     L.geoJSON(geojson, {
         style: feature => ({
