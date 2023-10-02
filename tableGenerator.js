@@ -51,7 +51,6 @@ const continentOrder = [
   "Oceania",
   "Africa"
 ];
-
 const generateTableRows = (data) => {
   data.sort((a, b) => {
     const continentA = continentOrder.indexOf(a.continent);
@@ -70,6 +69,7 @@ const generateTableRows = (data) => {
       <td>${flag(row.country) || ''} ${row.country}</td>
       <td>${row.victims === null ? 'N/A' : row.victims.toLocaleString()}</td>
       <td>${row.victims && row.population ? ((row.victims / row.population) * 100000).toFixed(2) : 'N/A'}</td>
+      <td>${row.victims && row.catholicPopulation ? ((row.victims / row.catholicPopulation) * 100000).toFixed(2) : 'N/A'}</td>
       <td>${uniqueReferences(row.references)}</td>
     </tr>
   `).join('');
@@ -81,13 +81,21 @@ const generateTableHTML = (tableRows) => `
       <tr>
         <th>Country</th>
         <th>Victims</th>
-        <th>Victims per 100,000</th>
+        <th>Victims per 100,000 Population</th>
+        <th>Victims per 100,000 Catholic Population</th>
         <th>References</th>
       </tr>
     </thead>
     <tbody>
       ${tableRows}
     </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="5">
+          <small>Catholic population data sourced from <a href="https://worldpopulationreview.com/country-rankings/highest-catholic-population">World Population Review</a></small>
+        </td>
+      </tr>
+    </tfoot>
   </table>
 `;
 

@@ -1,427 +1,475 @@
 [
-    {
-        "country": "Argentina",
-        "continent": "Latin America",
-        "victims": 69,
-        "population": 45195777,
-        "references": [
-            "https://en.m.wikipedia.org/wiki/Catholic_sexual_abuse_cases_in_Latin_America#Argentina"
-        ]
-    },
-    {
-        "country": "Bolivia",
-        "continent": "Latin America",
-        "victims": 85,
-        "population": 11673021,
-        "references": [
-            "https://apnews.com/article/bolivia-priest-jesuits-murillo-0643415fe9d4a0838f117ddad175f113"
-        ]
-    },
-    {
-        "country": "Brazil",
-        "continent": "Latin America",
-        "victims": 148,
-        "population": 213993437,
-        "references": [
-            "https://cruxnow.com/church-in-the-americas/2023/06/first-study-of-clerical-abuse-in-brazil-calls-known-cases-tip-of-the-iceberg"
-        ]
-    },
-    {
-        "country": "Chile",
-        "continent": "Latin America",
-        "victims": 123,
-        "population": 19297291,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "Colombia",
-        "continent": "Latin America",
-        "victims": 100,
-        "population": 50882891,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "Costa Rica",
-        "continent": "Latin America",
-        "victims": 1,
-        "population": 5137171,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "Ecuador",
-        "continent": "Latin America",
-        "victims": 4,
-        "population": 17643054,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "El Salvador",
-        "continent": "Latin America",
-        "victims": 1,
-        "population": 6486205,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "Guatemala",
-        "continent": "Latin America",
-        "victims": 1,
-        "population": 17915568,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "Mexico",
-        "continent": "Latin America",
-        "victims": 170,
-        "population": 126190788,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "Nicaragua",
-        "continent": "Latin America",
-        "victims": 13,
-        "population": 6624554,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "Peru",
-        "continent": "Latin America",
-        "victims": 19,
-        "population": 32933835,
-        "references": [
-            "https://www.reuters.com/article/us-peru-church-abuse-idUSKCN1RN00U"
-        ]
-    },
-    {
-        "country": "Venezuela",
-        "continent": "Latin America",
-        "victims": 2,
-        "population": 28435943,
-        "references": [
-            "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
-        ]
-    },
-    {
-        "country": "United States of America",
-        "continent": "North America",
-        "victims": 4228,
-        "population": 331915073,
-        "references": [
-            "https://www.abuselawsuit.com/church-sex-abuse/#:~:text=In%202021%2C%20the%20U.S.%20Conference,members%20from%20across%20the%20country"
-        ]
-    },
-    {
-        "country": "Canada",
-        "continent": "North America",
-        "victims": 105,
-        "population": 38005238,
-        "references": [
-            "https://en.m.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Canada"
-        ]
-    },
-    {
-        "country": "Portugal",
-        "continent": "Europe",
-        "victims": 4800,
-        "population": 10196709,
-        "references": [
-            "https://www.euronews.com/2023/02/14/more-than-4800-cases-of-sexual-abuse-within-the-catholic-church-uncovered-in-portugal"
-        ]
-    },
-    {
-        "country": "Spain",
-        "continent": "Europe",
-        "victims": 500,
-        "population": 46754778,
-        "references": [
-            "https://english.elpais.com/society/2021-02-01/child-abuse-in-the-spanish-catholic-church-in-spain-no-one-does-anything.html"
-        ]
-    },
-    {
-        "country": "France",
-        "continent": "Europe",
-        "victims": 200000,
-        "population": 65273511,
-        "references": [
-            "https://www.ciase.fr/rapport-final/",
-            "https://www.nytimes.com/2021/10/05/world/europe/france-catholic-church-abuse.html"
-        ]
-    },
-    {
-        "country": "Belgium",
-        "continent": "Europe",
-        "victims": 470,
-        "population": 11589623,
-        "references": [
-            "http://www.maklu-online.eu/nl/tijdschrift/panopticon/jaargang-volume-33/1-januari-februari-january-february-2012/seksueel-misbruik-binnen-de-katholieke-kerk-een-sc/pdf/"
-        ]
-    },
-    {
-        "country": "Italy",
-        "continent": "Europe",
-        "victims": 600,
-        "population": 60461826,
-        "references": [
-            "https://religionnews.com/2022/11/18/italy-church-says-600-sex-abuse-cases-sent-to-vatican/"
-        ]
-    },
-    {
-        "country": "Germany",
-        "continent": "Europe",
-        "victims": 3677,
-        "population": 83783942,
-        "references": [
-            "https://apnews.com/article/germany-catholic-church-abuse-cdf56e5af040e8224535b92b5af2bb00"
-        ]
-    },
-    {
-        "country": "United Kingdom",
-        "continent": "Europe",
-        "victims": 3000,
-        "population": 67886011,
-        "references": [
-            "https://www.reuters.com/article/us-britain-abuse-idUSKBN27Q1PU"
-        ]
-    },
-    {
-        "country": "Ireland",
-        "continent": "Europe",
-        "victims": 15000,
-        "population": 4937786,
-        "references": [
-            "https://www.aljazeera.com/news/2021/10/5/awful-truth-child-sex-abuse-in-the-catholic-church#:~:text=Ireland,up abuse have been punished"
-        ]
-    },
-    {
-        "country": "Netherlands",
-        "continent": "Europe",
-        "victims": 10000,
-        "population": 17134872,
-        "references": [
-            "https://www.ncronline.org/news/accountability/report-thousands-abused-church-personnel-netherlands"
-        ]
-    },
-    {
-        "country": "Poland",
-        "continent": "Europe",
-        "victims": 368,
-        "population": 37846611,
-        "references": [
-            "https://www.euronews.com/2021/06/28/polish-catholic-church-reveals-hundreds-of-new-sexual-abuse-claims"
-        ]
-    },
-    {
-        "country": "Switzerland",
-        "continent": "Europe",
-        "victims": 1000,
-        "population": 8654622,
-        "references": [
-            "https://www.swissinfo.ch/eng/society/priests-committed-over-1-000-sex-crimes-in-switzerland-since-1950/48804720"
-        ]
-    },
-    {
-        "country": "Austria",
-        "continent": "Europe",
-        "victims": 448,
-        "population": 9006398,
-        "references": [
-            "https://www.sciencedirect.com/science/article/abs/pii/S0145213413002081"
-        ]
-    },
-    {
-        "country": "Hungary",
-        "continent": "Europe",
-        "victims": 32,
-        "population": 9660351,
-        "references": [
-            "https://emerging-europe.com/news/hungarys-real-pedophilia-problem-has-nothing-to-do-with-gay-content/#:~:text=According to the Hungarian media,number could be far higher"
-        ]
-    },
-    {
-        "country": "Slovenia",
-        "continent": "Europe",
-        "victims": 12,
-        "population": 2078938,
-        "references": [
-            "https://www.total-slovenia-news.com/news/2147-slovenian-catholic-church-has-processed-only-12-sexual-abuse-reports-since-2009"
-        ]
-    },
-    {
-        "country": "Croatia",
-        "continent": "Europe",
-        "victims": 13,
-        "population": 4105267,
-        "references": [
-            "https://balkaninsight.com/2023/05/24/croatias-catholic-church-goes-public-on-child-abuse-cases/"
-        ]
-    },
-    {
-        "country": "Iceland",
-        "continent": "Europe",
-        "victims": 8,
-        "population": 341243,
-        "references": [
-            "https://grapevine.is/news/2012/11/05/catholic-church-investigation-releases-findings/"
-        ]
-    },
-    {
-        "country": "Luxembourg",
-        "continent": "Europe",
-        "victims": 60,
-        "population": 625978,
-        "references": [
-            "https://today.rtl.lu/news/luxembourg/a/1881542.html"
-        ]
-    },
-    {
-        "country": "Indonesia",
-        "continent": "Asia",
-        "victims": 50,
-        "population": 276361783,
-        "references": [
-            "https://www.thejakartapost.com/news/2019/12/09/more-than-50-victims-of-sexual-abuse-in-indonesian-catholic-churches-report.html"
-        ]
-    },
-    {
-        "country": "Japan",
-        "continent": "Asia",
-        "victims": 16,
-        "population": 125960000,
-        "references": [
-            "https://www.cbcj.catholic.jp/2020/04/07/20600/"
-        ]
-    },
-    {
-        "country": "Philippines",
-        "continent": "Asia",
-        "victims": null,
-        "population": 113263256,
-        "references": []
-    },
-    {
-        "country": "India",
-        "continent": "Asia",
-        "victims": null,
-        "population": 1380004385,
-        "references": []
-    },
-    {
-        "country": "South Korea",
-        "continent": "Asia",
-        "victims": null,
-        "population": 51269185,
-        "references": []
-    },
-    {
-        "country": "East Timor",
-        "continent": "Asia",
-        "victims": null,
-        "population": 1318445,
-        "references": []
-    },
-    {
-        "country": "Sri Lanka",
-        "continent": "Asia",
-        "victims": null,
-        "population": 21413250,
-        "references": []
-    },
-    {
-        "country": "Thailand",
-        "continent": "Asia",
-        "victims": null,
-        "population": 69799978,
-        "references": []
-    },
-    {
-        "country": "Vietnam",
-        "continent": "Asia",
-        "victims": null,
-        "population": 97338579,
-        "references": []
-    },
-    {
-        "country": "Malaysia",
-        "continent": "Asia",
-        "victims": null,
-        "population": 32657400,
-        "references": []
-    },
-    {
-        "country": "Australia",
-        "continent": "Oceania",
-        "victims": 2489,
-        "population": 25788220,
-        "references": [
-            "https://bravehearts.org.au/research-lobbying/stats-facts/child-sexual-abuse-religous-organisations/"
-        ]
-    },
-    {
-        "country": "New Zealand",
-        "continent": "Oceania",
-        "victims": 1122,
-        "population": 4822233,
-        "references": [
-            "https://www.catholic.org.nz/news/media-releases/nzcatholic-abuse-research/"
-        ]
-    },
-    {
-        "country": "Papua New Guinea",
-        "continent": "Oceania",
-        "victims": null,
-        "population": 8947024,
-        "references": []
-    },
-    {
-        "country": "South Africa",
-        "continent": "Africa",
-        "victims": 35,
-        "population": 60652000,
-        "references": [
-            "https://cruxnow.com/church-in-africa/2019/02/africa-is-also-grappling-with-clerical-abuse-say-catholic-leaders"
-        ]
-    },
-    {
-        "country": "Nigeria",
-        "continent": "Africa",
-        "victims": null,
-        "population": 206139587,
-        "references": []
-    },
-    {
-        "country": "Congo",
-        "continent": "Africa",
-        "victims": null,
-        "population": 85026000,
-        "references": []
-    },
-    {
-        "country": "Kenya",
-        "continent": "Africa",
-        "victims": null,
-        "population": 53771296,
-        "references": []
-    },
-    {
-        "country": "Nigeria",
-        "continent": "Africa",
-        "victims": null,
-        "population": 206139587,
-        "references": []
-    }
+  {
+    "country": "Argentina",
+    "continent": "Latin America",
+    "victims": 69,
+    "population": 45195777,
+    "references": [
+      "https://en.m.wikipedia.org/wiki/Catholic_sexual_abuse_cases_in_Latin_America#Argentina"
+    ],
+    "catholicPopulation": 28770000
+  },
+  {
+    "country": "Bolivia",
+    "continent": "Latin America",
+    "victims": 85,
+    "population": 11673021,
+    "references": [
+      "https://apnews.com/article/bolivia-priest-jesuits-murillo-0643415fe9d4a0838f117ddad175f113"
+    ],
+    "catholicPopulation": 7980000
+  },
+  {
+    "country": "Brazil",
+    "continent": "Latin America",
+    "victims": 148,
+    "population": 213993437,
+    "references": [
+      "https://cruxnow.com/church-in-the-americas/2023/06/first-study-of-clerical-abuse-in-brazil-calls-known-cases-tip-of-the-iceberg"
+    ],
+    "catholicPopulation": 123360000
+  },
+  {
+    "country": "Chile",
+    "continent": "Latin America",
+    "victims": 123,
+    "population": 19297291,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 9000000
+  },
+  {
+    "country": "Colombia",
+    "continent": "Latin America",
+    "victims": 100,
+    "population": 50882891,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 35000000
+  },
+  {
+    "country": "Costa Rica",
+    "continent": "Latin America",
+    "victims": 1,
+    "population": 5137171,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 2850000
+  },
+  {
+    "country": "Ecuador",
+    "continent": "Latin America",
+    "victims": 4,
+    "population": 17643054,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 11265523
+  },
+  {
+    "country": "El Salvador",
+    "continent": "Latin America",
+    "victims": 1,
+    "population": 6486205,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 2730000
+  },
+  {
+    "country": "Guatemala",
+    "continent": "Latin America",
+    "victims": 1,
+    "population": 17915568,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 7000000
+  },
+  {
+    "country": "Mexico",
+    "continent": "Latin America",
+    "victims": 170,
+    "population": 126190788,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 100000000
+  },
+  {
+    "country": "Nicaragua",
+    "continent": "Latin America",
+    "victims": 13,
+    "population": 6624554,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 2700000
+  },
+  {
+    "country": "Peru",
+    "continent": "Latin America",
+    "victims": 19,
+    "population": 32933835,
+    "references": [
+      "https://www.reuters.com/article/us-peru-church-abuse-idUSKCN1RN00U"
+    ],
+    "catholicPopulation": 23674000
+  },
+  {
+    "country": "Venezuela",
+    "continent": "Latin America",
+    "victims": 2,
+    "population": 28435943,
+    "references": [
+      "https://ticotimes.net/2021/10/05/latin-america-no-stranger-to-church-sexual-abuse-allegations"
+    ],
+    "catholicPopulation": 22400000
+  },
+  {
+    "country": "United States of America",
+    "continent": "North America",
+    "victims": 4228,
+    "population": 331915073,
+    "references": [
+      "https://www.abuselawsuit.com/church-sex-abuse/#:~:text=In%202021%2C%20the%20U.S.%20Conference,members%20from%20across%20the%20country"
+    ],
+    "catholicPopulation": 69300000
+  },
+  {
+    "country": "Canada",
+    "continent": "North America",
+    "victims": 105,
+    "population": 38005238,
+    "references": [
+      "https://en.m.wikipedia.org/wiki/Catholic_Church_sexual_abuse_cases_in_Canada"
+    ],
+    "catholicPopulation": 13843000
+  },
+  {
+    "country": "Portugal",
+    "continent": "Europe",
+    "victims": 4800,
+    "population": 10196709,
+    "references": [
+      "https://www.euronews.com/2023/02/14/more-than-4800-cases-of-sexual-abuse-within-the-catholic-church-uncovered-in-portugal"
+    ],
+    "catholicPopulation": 8920000
+  },
+  {
+    "country": "Spain",
+    "continent": "Europe",
+    "victims": 500,
+    "population": 46754778,
+    "references": [
+      "https://english.elpais.com/society/2021-02-01/child-abuse-in-the-spanish-catholic-church-in-spain-no-one-does-anything.html"
+    ],
+    "catholicPopulation": 30720000
+  },
+  {
+    "country": "France",
+    "continent": "Europe",
+    "victims": 200000,
+    "population": 65273511,
+    "references": [
+      "https://www.ciase.fr/rapport-final/",
+      "https://www.nytimes.com/2021/10/05/world/europe/france-catholic-church-abuse.html"
+    ],
+    "catholicPopulation": 39000000
+  },
+  {
+    "country": "Belgium",
+    "continent": "Europe",
+    "victims": 470,
+    "population": 11589623,
+    "references": [
+      "http://www.maklu-online.eu/nl/tijdschrift/panopticon/jaargang-volume-33/1-januari-februari-january-february-2012/seksueel-misbruik-binnen-de-katholieke-kerk-een-sc/pdf/"
+    ],
+    "catholicPopulation": 6500000
+  },
+  {
+    "country": "Italy",
+    "continent": "Europe",
+    "victims": 600,
+    "population": 60461826,
+    "references": [
+      "https://religionnews.com/2022/11/18/italy-church-says-600-sex-abuse-cases-sent-to-vatican/"
+    ],
+    "catholicPopulation": 50474000
+  },
+  {
+    "country": "Germany",
+    "continent": "Europe",
+    "victims": 3677,
+    "population": 83783942,
+    "references": [
+      "https://apnews.com/article/germany-catholic-church-abuse-cdf56e5af040e8224535b92b5af2bb00"
+    ],
+    "catholicPopulation": 23002000
+  },
+  {
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "victims": 3000,
+    "population": 67886011,
+    "references": [
+      "https://www.reuters.com/article/us-britain-abuse-idUSKBN27Q1PU"
+    ],
+    "catholicPopulation": 5700000
+  },
+  {
+    "country": "Ireland",
+    "continent": "Europe",
+    "victims": 15000,
+    "population": 4937786,
+    "references": [
+      "https://www.aljazeera.com/news/2021/10/5/awful-truth-child-sex-abuse-in-the-catholic-church#:~:text=Ireland,up abuse have been punished"
+    ],
+    "catholicPopulation": 3729000
+  },
+  {
+    "country": "Netherlands",
+    "continent": "Europe",
+    "victims": 10000,
+    "population": 17134872,
+    "references": [
+      "https://www.ncronline.org/news/accountability/report-thousands-abused-church-personnel-netherlands"
+    ],
+    "catholicPopulation": 3943000
+  },
+  {
+    "country": "Poland",
+    "continent": "Europe",
+    "victims": 368,
+    "population": 37846611,
+    "references": [
+      "https://www.euronews.com/2021/06/28/polish-catholic-church-reveals-hundreds-of-new-sexual-abuse-claims"
+    ],
+    "catholicPopulation": 33037017
+  },
+  {
+    "country": "Switzerland",
+    "continent": "Europe",
+    "victims": 1000,
+    "population": 8654622,
+    "references": [
+      "https://www.swissinfo.ch/eng/society/priests-committed-over-1-000-sex-crimes-in-switzerland-since-1950/48804720"
+    ],
+    "catholicPopulation": 3052000
+  },
+  {
+    "country": "Austria",
+    "continent": "Europe",
+    "victims": 448,
+    "population": 9006398,
+    "references": [
+      "https://www.sciencedirect.com/science/article/abs/pii/S0145213413002081"
+    ],
+    "catholicPopulation": 5050000
+  },
+  {
+    "country": "Hungary",
+    "continent": "Europe",
+    "victims": 32,
+    "population": 9660351,
+    "references": [
+      "https://emerging-europe.com/news/hungarys-real-pedophilia-problem-has-nothing-to-do-with-gay-content/#:~:text=According to the Hungarian media,number could be far higher"
+    ],
+    "catholicPopulation": 3674244
+  },
+  {
+    "country": "Slovenia",
+    "continent": "Europe",
+    "victims": 12,
+    "population": 2078938,
+    "references": [
+      "https://www.total-slovenia-news.com/news/2147-slovenian-catholic-church-has-processed-only-12-sexual-abuse-reports-since-2009"
+    ],
+    "catholicPopulation": 1511980
+  },
+  {
+    "country": "Croatia",
+    "continent": "Europe",
+    "victims": 13,
+    "population": 4105267,
+    "references": [
+      "https://balkaninsight.com/2023/05/24/croatias-catholic-church-goes-public-on-child-abuse-cases/"
+    ],
+    "catholicPopulation": 3698000
+  },
+  {
+    "country": "Iceland",
+    "continent": "Europe",
+    "victims": 8,
+    "population": 341243,
+    "references": [
+      "https://grapevine.is/news/2012/11/05/catholic-church-investigation-releases-findings/"
+    ],
+    "catholicPopulation": 13799
+  },
+  {
+    "country": "Luxembourg",
+    "continent": "Europe",
+    "victims": 60,
+    "population": 625978,
+    "references": [
+      "https://today.rtl.lu/news/luxembourg/a/1881542.html"
+    ],
+    "catholicPopulation": 369600
+  },
+  {
+    "country": "Indonesia",
+    "continent": "Asia",
+    "victims": 50,
+    "population": 276361783,
+    "references": [
+      "https://www.thejakartapost.com/news/2019/12/09/more-than-50-victims-of-sexual-abuse-in-indonesian-catholic-churches-report.html"
+    ],
+    "catholicPopulation": 7395000
+  },
+  {
+    "country": "Japan",
+    "continent": "Asia",
+    "victims": 16,
+    "population": 125960000,
+    "references": [
+      "https://www.cbcj.catholic.jp/2020/04/07/20600/"
+    ],
+    "catholicPopulation": 382251
+  },
+  {
+    "country": "Philippines",
+    "continent": "Asia",
+    "victims": null,
+    "population": 113263256,
+    "references": [],
+    "catholicPopulation": 85470000
+  },
+  {
+    "country": "India",
+    "continent": "Asia",
+    "victims": null,
+    "population": 1380004385,
+    "references": [],
+    "catholicPopulation": 15520000
+  },
+  {
+    "country": "South Korea",
+    "continent": "Asia",
+    "victims": null,
+    "population": 51269185,
+    "references": [],
+    "catholicPopulation": 5813770
+  },
+  {
+    "country": "East Timor",
+    "continent": "Asia",
+    "victims": null,
+    "population": 1318445,
+    "references": []
+  },
+  {
+    "country": "Sri Lanka",
+    "continent": "Asia",
+    "victims": null,
+    "population": 21413250,
+    "references": [],
+    "catholicPopulation": 1237000
+  },
+  {
+    "country": "Thailand",
+    "continent": "Asia",
+    "victims": null,
+    "population": 69799978,
+    "references": [],
+    "catholicPopulation": 196333
+  },
+  {
+    "country": "Vietnam",
+    "continent": "Asia",
+    "victims": null,
+    "population": 97338579,
+    "references": [],
+    "catholicPopulation": 5658000
+  },
+  {
+    "country": "Malaysia",
+    "continent": "Asia",
+    "victims": null,
+    "population": 32657400,
+    "references": [],
+    "catholicPopulation": 1290453
+  },
+  {
+    "country": "Australia",
+    "continent": "Oceania",
+    "victims": 2489,
+    "population": 25788220,
+    "references": [
+      "https://bravehearts.org.au/research-lobbying/stats-facts/child-sexual-abuse-religous-organisations/"
+    ],
+    "catholicPopulation": 5292000
+  },
+  {
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "victims": 1122,
+    "population": 4822233,
+    "references": [
+      "https://www.catholic.org.nz/news/media-releases/nzcatholic-abuse-research/"
+    ],
+    "catholicPopulation": 492000
+  },
+  {
+    "country": "Papua New Guinea",
+    "continent": "Oceania",
+    "victims": null,
+    "population": 8947024,
+    "references": [],
+    "catholicPopulation": 1890000
+  },
+  {
+    "country": "South Africa",
+    "continent": "Africa",
+    "victims": 35,
+    "population": 60652000,
+    "references": [
+      "https://cruxnow.com/church-in-africa/2019/02/africa-is-also-grappling-with-clerical-abuse-say-catholic-leaders"
+    ],
+    "catholicPopulation": 2851327
+  },
+  {
+    "country": "Nigeria",
+    "continent": "Africa",
+    "victims": null,
+    "population": 206139587,
+    "references": [],
+    "catholicPopulation": 23940000
+  },
+  {
+    "country": "Congo",
+    "continent": "Africa",
+    "victims": null,
+    "population": 85026000,
+    "references": []
+  },
+  {
+    "country": "Kenya",
+    "continent": "Africa",
+    "victims": null,
+    "population": 53771296,
+    "references": [],
+    "catholicPopulation": 9613500
+  },
+  {
+    "country": "Nigeria",
+    "continent": "Africa",
+    "victims": null,
+    "population": 206139587,
+    "references": [],
+    "catholicPopulation": 23940000
+  }
 ]

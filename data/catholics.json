@@ -1,0 +1,972 @@
+[
+  {
+    "country": "Vatican City",
+    "highestCatholicPopulation_catholicsPerc": 100,
+    "highestCatholicPopulation_catholics": 799
+  },
+  {
+    "country": "Timor-Leste",
+    "highestCatholicPopulation_catholicsPerc": 96.9,
+    "highestCatholicPopulation_catholics": 1021000
+  },
+  {
+    "country": "San Marino",
+    "highestCatholicPopulation_catholicsPerc": 90.5,
+    "highestCatholicPopulation_catholics": 29412
+  },
+  {
+    "country": "Paraguay",
+    "highestCatholicPopulation_catholicsPerc": 89,
+    "highestCatholicPopulation_catholics": 6000000
+  },
+  {
+    "country": "Malta",
+    "highestCatholicPopulation_catholicsPerc": 88.7,
+    "highestCatholicPopulation_catholics": 361372
+  },
+  {
+    "country": "Andorra",
+    "highestCatholicPopulation_catholicsPerc": 88.2,
+    "highestCatholicPopulation_catholics": 61740
+  },
+  {
+    "country": "Croatia",
+    "highestCatholicPopulation_catholicsPerc": 86.3,
+    "highestCatholicPopulation_catholics": 3698000
+  },
+  {
+    "country": "Poland",
+    "highestCatholicPopulation_catholicsPerc": 85.8,
+    "highestCatholicPopulation_catholics": 33037017
+  },
+  {
+    "country": "Portugal",
+    "highestCatholicPopulation_catholicsPerc": 84.5,
+    "highestCatholicPopulation_catholics": 8920000
+  },
+  {
+    "country": "Italy",
+    "highestCatholicPopulation_catholicsPerc": 83,
+    "highestCatholicPopulation_catholics": 50474000
+  },
+  {
+    "country": "Monaco",
+    "highestCatholicPopulation_catholicsPerc": 82.3,
+    "highestCatholicPopulation_catholics": 29933
+  },
+  {
+    "country": "Philippines",
+    "highestCatholicPopulation_catholicsPerc": 81.4,
+    "highestCatholicPopulation_catholics": 85470000
+  },
+  {
+    "country": "Equatorial Guinea",
+    "highestCatholicPopulation_catholicsPerc": 80.7,
+    "highestCatholicPopulation_catholics": 1410000
+  },
+  {
+    "country": "Mexico",
+    "highestCatholicPopulation_catholicsPerc": 80,
+    "highestCatholicPopulation_catholics": 100000000
+  },
+  {
+    "country": "Ireland",
+    "highestCatholicPopulation_catholicsPerc": 78.3,
+    "highestCatholicPopulation_catholics": 3729000
+  },
+  {
+    "country": "Cape Verde",
+    "highestCatholicPopulation_catholicsPerc": 77.3,
+    "highestCatholicPopulation_catholics": 395850
+  },
+  {
+    "country": "Lithuania",
+    "highestCatholicPopulation_catholicsPerc": 77.2,
+    "highestCatholicPopulation_catholics": 2311722
+  },
+  {
+    "country": "Ecuador",
+    "highestCatholicPopulation_catholicsPerc": 77,
+    "highestCatholicPopulation_catholics": 11265523
+  },
+  {
+    "country": "Seychelles",
+    "highestCatholicPopulation_catholicsPerc": 76.2,
+    "highestCatholicPopulation_catholics": 70866
+  },
+  {
+    "country": "Liechtenstein",
+    "highestCatholicPopulation_catholicsPerc": 75.9,
+    "highestCatholicPopulation_catholics": 25803
+  },
+  {
+    "country": "Colombia",
+    "highestCatholicPopulation_catholicsPerc": 75,
+    "highestCatholicPopulation_catholics": 35000000
+  },
+  {
+    "country": "Peru",
+    "highestCatholicPopulation_catholicsPerc": 75,
+    "highestCatholicPopulation_catholics": 23674000
+  },
+  {
+    "country": "Sao Tome and Principe",
+    "highestCatholicPopulation_catholicsPerc": 73.5,
+    "highestCatholicPopulation_catholics": 119805
+  },
+  {
+    "country": "Slovenia",
+    "highestCatholicPopulation_catholicsPerc": 73.2,
+    "highestCatholicPopulation_catholics": 1511980
+  },
+  {
+    "country": "Bolivia",
+    "highestCatholicPopulation_catholicsPerc": 73,
+    "highestCatholicPopulation_catholics": 7980000
+  },
+  {
+    "country": "Venezuela",
+    "highestCatholicPopulation_catholicsPerc": 70,
+    "highestCatholicPopulation_catholics": 22400000
+  },
+  {
+    "country": "Argentina",
+    "highestCatholicPopulation_catholicsPerc": 68.5,
+    "highestCatholicPopulation_catholics": 28770000
+  },
+  {
+    "country": "Spain",
+    "highestCatholicPopulation_catholicsPerc": 66,
+    "highestCatholicPopulation_catholics": 30720000
+  },
+  {
+    "country": "Luxembourg",
+    "highestCatholicPopulation_catholicsPerc": 65.9,
+    "highestCatholicPopulation_catholics": 369600
+  },
+  {
+    "country": "Panama",
+    "highestCatholicPopulation_catholicsPerc": 62.5,
+    "highestCatholicPopulation_catholics": 2162500
+  },
+  {
+    "country": "Burundi",
+    "highestCatholicPopulation_catholicsPerc": 62.1,
+    "highestCatholicPopulation_catholics": 7440000
+  },
+  {
+    "country": "Slovakia",
+    "highestCatholicPopulation_catholicsPerc": 62,
+    "highestCatholicPopulation_catholics": 3347277
+  },
+  {
+    "country": "Saint Lucia",
+    "highestCatholicPopulation_catholicsPerc": 61.3,
+    "highestCatholicPopulation_catholics": 101500
+  },
+  {
+    "country": "Chile",
+    "highestCatholicPopulation_catholicsPerc": 60.8,
+    "highestCatholicPopulation_catholics": 9000000
+  },
+  {
+    "country": "France",
+    "highestCatholicPopulation_catholicsPerc": 58.5,
+    "highestCatholicPopulation_catholics": 39000000
+  },
+  {
+    "country": "Dominica",
+    "highestCatholicPopulation_catholicsPerc": 58.1,
+    "highestCatholicPopulation_catholics": 41564
+  },
+  {
+    "country": "Belgium",
+    "highestCatholicPopulation_catholicsPerc": 58,
+    "highestCatholicPopulation_catholics": 6500000
+  },
+  {
+    "country": "Brazil",
+    "highestCatholicPopulation_catholicsPerc": 57.5,
+    "highestCatholicPopulation_catholics": 123360000
+  },
+  {
+    "country": "Costa Rica",
+    "highestCatholicPopulation_catholicsPerc": 57,
+    "highestCatholicPopulation_catholics": 2850000
+  },
+  {
+    "country": "Austria",
+    "highestCatholicPopulation_catholicsPerc": 56.9,
+    "highestCatholicPopulation_catholics": 5050000
+  },
+  {
+    "country": "Kiribati",
+    "highestCatholicPopulation_catholicsPerc": 55.8,
+    "highestCatholicPopulation_catholics": 54684
+  },
+  {
+    "country": "Haiti",
+    "highestCatholicPopulation_catholicsPerc": 54.7,
+    "highestCatholicPopulation_catholics": 5470000
+  },
+  {
+    "country": "Dominican Republic",
+    "highestCatholicPopulation_catholicsPerc": 52.5,
+    "highestCatholicPopulation_catholics": 5460000
+  },
+  {
+    "country": "Cuba",
+    "highestCatholicPopulation_catholicsPerc": 51.7,
+    "highestCatholicPopulation_catholics": 5790000
+  },
+  {
+    "country": "Gabon",
+    "highestCatholicPopulation_catholicsPerc": 50,
+    "highestCatholicPopulation_catholics": 694600
+  },
+  {
+    "country": "Lesotho",
+    "highestCatholicPopulation_catholicsPerc": 45.7,
+    "highestCatholicPopulation_catholics": 946000
+  },
+  {
+    "country": "Nicaragua",
+    "highestCatholicPopulation_catholicsPerc": 45,
+    "highestCatholicPopulation_catholics": 2700000
+  },
+  {
+    "country": "Grenada",
+    "highestCatholicPopulation_catholicsPerc": 44.6,
+    "highestCatholicPopulation_catholics": 39917
+  },
+  {
+    "country": "Rwanda",
+    "highestCatholicPopulation_catholicsPerc": 43.7,
+    "highestCatholicPopulation_catholics": 4807000
+  },
+  {
+    "country": "Guatemala",
+    "highestCatholicPopulation_catholicsPerc": 43,
+    "highestCatholicPopulation_catholics": 7000000
+  },
+  {
+    "country": "Palau",
+    "highestCatholicPopulation_catholicsPerc": 41.6,
+    "highestCatholicPopulation_catholics": 8299
+  },
+  {
+    "country": "Honduras",
+    "highestCatholicPopulation_catholicsPerc": 41.5,
+    "highestCatholicPopulation_catholics": 3652000
+  },
+  {
+    "country": "Angola",
+    "highestCatholicPopulation_catholicsPerc": 41.1,
+    "highestCatholicPopulation_catholics": 10600000
+  },
+  {
+    "country": "Belize",
+    "highestCatholicPopulation_catholicsPerc": 40,
+    "highestCatholicPopulation_catholics": 133600
+  },
+  {
+    "country": "Uruguay",
+    "highestCatholicPopulation_catholicsPerc": 39.5,
+    "highestCatholicPopulation_catholics": 1330000
+  },
+  {
+    "country": "Uganda",
+    "highestCatholicPopulation_catholicsPerc": 39.3,
+    "highestCatholicPopulation_catholics": 16500000
+  },
+  {
+    "country": "El Salvador",
+    "highestCatholicPopulation_catholicsPerc": 39,
+    "highestCatholicPopulation_catholics": 2730000
+  },
+  {
+    "country": "Canada",
+    "highestCatholicPopulation_catholicsPerc": 38.7,
+    "highestCatholicPopulation_catholics": 13843000
+  },
+  {
+    "country": "Cameroon",
+    "highestCatholicPopulation_catholicsPerc": 38.4,
+    "highestCatholicPopulation_catholics": 9846000
+  },
+  {
+    "country": "Hungary",
+    "highestCatholicPopulation_catholicsPerc": 37.2,
+    "highestCatholicPopulation_catholics": 3674244
+  },
+  {
+    "country": "DR Congo",
+    "highestCatholicPopulation_catholicsPerc": 36.8,
+    "highestCatholicPopulation_catholics": 28700000
+  },
+  {
+    "country": "Switzerland",
+    "highestCatholicPopulation_catholicsPerc": 36.55,
+    "highestCatholicPopulation_catholics": 3052000
+  },
+  {
+    "country": "Republic of the Congo",
+    "highestCatholicPopulation_catholicsPerc": 33.1,
+    "highestCatholicPopulation_catholics": 1675529
+  },
+  {
+    "country": "South Sudan",
+    "highestCatholicPopulation_catholicsPerc": 30,
+    "highestCatholicPopulation_catholics": 3000000
+  },
+  {
+    "country": "Madagascar",
+    "highestCatholicPopulation_catholicsPerc": 29.5,
+    "highestCatholicPopulation_catholics": 5318293
+  },
+  {
+    "country": "Lebanon",
+    "highestCatholicPopulation_catholicsPerc": 28.8,
+    "highestCatholicPopulation_catholics": 1382400
+  },
+  {
+    "country": "Mozambique",
+    "highestCatholicPopulation_catholicsPerc": 28.4,
+    "highestCatholicPopulation_catholics": 4618795
+  },
+  {
+    "country": "Malawi",
+    "highestCatholicPopulation_catholicsPerc": 28.4,
+    "highestCatholicPopulation_catholics": 3449487
+  },
+  {
+    "country": "Germany",
+    "highestCatholicPopulation_catholicsPerc": 27.7,
+    "highestCatholicPopulation_catholics": 23002000
+  },
+  {
+    "country": "Tanzania",
+    "highestCatholicPopulation_catholicsPerc": 27.2,
+    "highestCatholicPopulation_catholics": 12220689
+  },
+  {
+    "country": "Papua New Guinea",
+    "highestCatholicPopulation_catholicsPerc": 27,
+    "highestCatholicPopulation_catholics": 1890000
+  },
+  {
+    "country": "Benin",
+    "highestCatholicPopulation_catholicsPerc": 26.6,
+    "highestCatholicPopulation_catholics": 1984366
+  },
+  {
+    "country": "Togo",
+    "highestCatholicPopulation_catholicsPerc": 26.4,
+    "highestCatholicPopulation_catholics": 1499921
+  },
+  {
+    "country": "Central African Republic",
+    "highestCatholicPopulation_catholicsPerc": 25,
+    "highestCatholicPopulation_catholics": 949974
+  },
+  {
+    "country": "Mauritius",
+    "highestCatholicPopulation_catholicsPerc": 23.6,
+    "highestCatholicPopulation_catholics": 289314
+  },
+  {
+    "country": "Netherlands",
+    "highestCatholicPopulation_catholicsPerc": 23.3,
+    "highestCatholicPopulation_catholics": 3943000
+  },
+  {
+    "country": "Australia",
+    "highestCatholicPopulation_catholicsPerc": 22.6,
+    "highestCatholicPopulation_catholics": 5292000
+  },
+  {
+    "country": "Kenya",
+    "highestCatholicPopulation_catholicsPerc": 22.1,
+    "highestCatholicPopulation_catholics": 9613500
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "highestCatholicPopulation_catholicsPerc": 21.6,
+    "highestCatholicPopulation_catholics": 286000
+  },
+  {
+    "country": "Suriname",
+    "highestCatholicPopulation_catholicsPerc": 21.6,
+    "highestCatholicPopulation_catholics": 119000
+  },
+  {
+    "country": "Ivory Coast",
+    "highestCatholicPopulation_catholicsPerc": 21.4,
+    "highestCatholicPopulation_catholics": 5093000
+  },
+  {
+    "country": "United States",
+    "highestCatholicPopulation_catholicsPerc": 21,
+    "highestCatholicPopulation_catholics": 69300000
+  },
+  {
+    "country": "Zambia",
+    "highestCatholicPopulation_catholicsPerc": 21,
+    "highestCatholicPopulation_catholics": 3003000
+  },
+  {
+    "country": "Chad",
+    "highestCatholicPopulation_catholicsPerc": 20.1,
+    "highestCatholicPopulation_catholics": 2520000
+  },
+  {
+    "country": "Samoa",
+    "highestCatholicPopulation_catholicsPerc": 19.6,
+    "highestCatholicPopulation_catholics": 35084
+  },
+  {
+    "country": "Latvia",
+    "highestCatholicPopulation_catholicsPerc": 19.1,
+    "highestCatholicPopulation_catholics": 437435
+  },
+  {
+    "country": "Solomon Islands",
+    "highestCatholicPopulation_catholicsPerc": 19,
+    "highestCatholicPopulation_catholics": 100000
+  },
+  {
+    "country": "Burkina Faso",
+    "highestCatholicPopulation_catholicsPerc": 17,
+    "highestCatholicPopulation_catholics": 2367303
+  },
+  {
+    "country": "Namibia",
+    "highestCatholicPopulation_catholicsPerc": 16.9,
+    "highestCatholicPopulation_catholics": 344202
+  },
+  {
+    "country": "Tonga",
+    "highestCatholicPopulation_catholicsPerc": 15.6,
+    "highestCatholicPopulation_catholics": 15912
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "highestCatholicPopulation_catholicsPerc": 15.19,
+    "highestCatholicPopulation_catholics": 536333
+  },
+  {
+    "country": "Vanuatu",
+    "highestCatholicPopulation_catholicsPerc": 13.1,
+    "highestCatholicPopulation_catholics": 36500
+  },
+  {
+    "country": "Ghana",
+    "highestCatholicPopulation_catholicsPerc": 12.9,
+    "highestCatholicPopulation_catholics": 2712851
+  },
+  {
+    "country": "Nigeria",
+    "highestCatholicPopulation_catholicsPerc": 12.6,
+    "highestCatholicPopulation_catholics": 23940000
+  },
+  {
+    "country": "Bahamas",
+    "highestCatholicPopulation_catholicsPerc": 12,
+    "highestCatholicPopulation_catholics": 39600
+  },
+  {
+    "country": "New Zealand",
+    "highestCatholicPopulation_catholicsPerc": 11.1,
+    "highestCatholicPopulation_catholics": 492000
+  },
+  {
+    "country": "South Korea",
+    "highestCatholicPopulation_catholicsPerc": 11,
+    "highestCatholicPopulation_catholics": 5813770
+  },
+  {
+    "country": "Czech Republic",
+    "highestCatholicPopulation_catholicsPerc": 10.2,
+    "highestCatholicPopulation_catholics": 1071000
+  },
+  {
+    "country": "Albania",
+    "highestCatholicPopulation_catholicsPerc": 10,
+    "highestCatholicPopulation_catholics": 302000
+  },
+  {
+    "country": "Fiji",
+    "highestCatholicPopulation_catholicsPerc": 9.1,
+    "highestCatholicPopulation_catholics": 80401
+  },
+  {
+    "country": "United Kingdom",
+    "highestCatholicPopulation_catholicsPerc": 9,
+    "highestCatholicPopulation_catholics": 5700000
+  },
+  {
+    "country": "Guinea-Bissau",
+    "highestCatholicPopulation_catholicsPerc": 8.9,
+    "highestCatholicPopulation_catholics": 126026
+  },
+  {
+    "country": "Bahrain",
+    "highestCatholicPopulation_catholicsPerc": 8.9,
+    "highestCatholicPopulation_catholics": 71200
+  },
+  {
+    "country": "Marshall Islands",
+    "highestCatholicPopulation_catholicsPerc": 8.4,
+    "highestCatholicPopulation_catholics": 5208
+  },
+  {
+    "country": "Antigua and Barbuda",
+    "highestCatholicPopulation_catholicsPerc": 8.2,
+    "highestCatholicPopulation_catholics": 6930
+  },
+  {
+    "country": "Guyana",
+    "highestCatholicPopulation_catholicsPerc": 8.1,
+    "highestCatholicPopulation_catholics": 91833
+  },
+  {
+    "country": "Ukraine",
+    "highestCatholicPopulation_catholicsPerc": 7.8,
+    "highestCatholicPopulation_catholics": 3354000
+  },
+  {
+    "country": "Zimbabwe",
+    "highestCatholicPopulation_catholicsPerc": 7.71,
+    "highestCatholicPopulation_catholics": 982792
+  },
+  {
+    "country": "Saint Vincent and the Grenadines",
+    "highestCatholicPopulation_catholicsPerc": 7.5,
+    "highestCatholicPopulation_catholics": 7950
+  },
+  {
+    "country": "South Africa",
+    "highestCatholicPopulation_catholicsPerc": 7.1,
+    "highestCatholicPopulation_catholics": 2851327
+  },
+  {
+    "country": "Belarus",
+    "highestCatholicPopulation_catholicsPerc": 7.1,
+    "highestCatholicPopulation_catholics": 674500
+  },
+  {
+    "country": "Vietnam",
+    "highestCatholicPopulation_catholicsPerc": 6.8,
+    "highestCatholicPopulation_catholics": 5658000
+  },
+  {
+    "country": "Saint Kitts and Nevis",
+    "highestCatholicPopulation_catholicsPerc": 6.7,
+    "highestCatholicPopulation_catholics": 3400
+  },
+  {
+    "country": "Sri Lanka",
+    "highestCatholicPopulation_catholicsPerc": 6.1,
+    "highestCatholicPopulation_catholics": 1237000
+  },
+  {
+    "country": "Serbia",
+    "highestCatholicPopulation_catholicsPerc": 6.1,
+    "highestCatholicPopulation_catholics": 433167
+  },
+  {
+    "country": "Kuwait",
+    "highestCatholicPopulation_catholicsPerc": 6.1,
+    "highestCatholicPopulation_catholics": 142474
+  },
+  {
+    "country": "Qatar",
+    "highestCatholicPopulation_catholicsPerc": 5.8,
+    "highestCatholicPopulation_catholics": 50000
+  },
+  {
+    "country": "Liberia",
+    "highestCatholicPopulation_catholicsPerc": 5.4,
+    "highestCatholicPopulation_catholics": 188039
+  },
+  {
+    "country": "United Arab Emirates",
+    "highestCatholicPopulation_catholicsPerc": 5,
+    "highestCatholicPopulation_catholics": 128160
+  },
+  {
+    "country": "Brunei",
+    "highestCatholicPopulation_catholicsPerc": 5,
+    "highestCatholicPopulation_catholics": 18618
+  },
+  {
+    "country": "Botswana",
+    "highestCatholicPopulation_catholicsPerc": 4.9,
+    "highestCatholicPopulation_catholics": 80365
+  },
+  {
+    "country": "Eswatini",
+    "highestCatholicPopulation_catholicsPerc": 4.9,
+    "highestCatholicPopulation_catholics": 62803
+  },
+  {
+    "country": "Singapore",
+    "highestCatholicPopulation_catholicsPerc": 4.8,
+    "highestCatholicPopulation_catholics": 165964
+  },
+  {
+    "country": "Romania",
+    "highestCatholicPopulation_catholicsPerc": 4.7,
+    "highestCatholicPopulation_catholics": 1787408
+  },
+  {
+    "country": "Barbados",
+    "highestCatholicPopulation_catholicsPerc": 4.2,
+    "highestCatholicPopulation_catholics": 10000
+  },
+  {
+    "country": "Oman",
+    "highestCatholicPopulation_catholicsPerc": 4.1,
+    "highestCatholicPopulation_catholics": 110000
+  },
+  {
+    "country": "Iceland",
+    "highestCatholicPopulation_catholicsPerc": 3.9,
+    "highestCatholicPopulation_catholics": 13799
+  },
+  {
+    "country": "Senegal",
+    "highestCatholicPopulation_catholicsPerc": 3.5,
+    "highestCatholicPopulation_catholics": 389439
+  },
+  {
+    "country": "Montenegro",
+    "highestCatholicPopulation_catholicsPerc": 3.4,
+    "highestCatholicPopulation_catholics": 21299
+  },
+  {
+    "country": "Malaysia",
+    "highestCatholicPopulation_catholicsPerc": 3.3,
+    "highestCatholicPopulation_catholics": 1290453
+  },
+  {
+    "country": "Eritrea",
+    "highestCatholicPopulation_catholicsPerc": 3.3,
+    "highestCatholicPopulation_catholics": 150532
+  },
+  {
+    "country": "Indonesia",
+    "highestCatholicPopulation_catholicsPerc": 2.9,
+    "highestCatholicPopulation_catholics": 7395000
+  },
+  {
+    "country": "Sierra Leone",
+    "highestCatholicPopulation_catholicsPerc": 2.9,
+    "highestCatholicPopulation_catholics": 174511
+  },
+  {
+    "country": "Guinea",
+    "highestCatholicPopulation_catholicsPerc": 2.6,
+    "highestCatholicPopulation_catholics": 246164
+  },
+  {
+    "country": "Saudi Arabia",
+    "highestCatholicPopulation_catholicsPerc": 2.5,
+    "highestCatholicPopulation_catholics": 660439
+  },
+  {
+    "country": "Norway",
+    "highestCatholicPopulation_catholicsPerc": 2.4,
+    "highestCatholicPopulation_catholics": 120900
+  },
+  {
+    "country": "Gambia",
+    "highestCatholicPopulation_catholicsPerc": 2.1,
+    "highestCatholicPopulation_catholics": 33458
+  },
+  {
+    "country": "Syria",
+    "highestCatholicPopulation_catholicsPerc": 2,
+    "highestCatholicPopulation_catholics": 368975
+  },
+  {
+    "country": "Palestine",
+    "highestCatholicPopulation_catholicsPerc": 2,
+    "highestCatholicPopulation_catholics": 80000
+  },
+  {
+    "country": "Jamaica",
+    "highestCatholicPopulation_catholicsPerc": 2,
+    "highestCatholicPopulation_catholics": 57780
+  },
+  {
+    "country": "Sweden",
+    "highestCatholicPopulation_catholicsPerc": 1.8,
+    "highestCatholicPopulation_catholics": 180000
+  },
+  {
+    "country": "Mali",
+    "highestCatholicPopulation_catholicsPerc": 1.5,
+    "highestCatholicPopulation_catholics": 189289
+  },
+  {
+    "country": "Taiwan",
+    "highestCatholicPopulation_catholicsPerc": 1.3,
+    "highestCatholicPopulation_catholics": 297626
+  },
+  {
+    "country": "India",
+    "highestCatholicPopulation_catholicsPerc": 1.2,
+    "highestCatholicPopulation_catholics": 15520000
+  },
+  {
+    "country": "Israel",
+    "highestCatholicPopulation_catholicsPerc": 1.2,
+    "highestCatholicPopulation_catholics": 92952
+  },
+  {
+    "country": "Myanmar",
+    "highestCatholicPopulation_catholicsPerc": 1.1,
+    "highestCatholicPopulation_catholics": 450549
+  },
+  {
+    "country": "Sudan",
+    "highestCatholicPopulation_catholicsPerc": 1,
+    "highestCatholicPopulation_catholics": 300000
+  },
+  {
+    "country": "Armenia",
+    "highestCatholicPopulation_catholicsPerc": 1,
+    "highestCatholicPopulation_catholics": 29829
+  },
+  {
+    "country": "Cyprus",
+    "highestCatholicPopulation_catholicsPerc": 1,
+    "highestCatholicPopulation_catholics": 11000
+  },
+  {
+    "country": "Tuvalu",
+    "highestCatholicPopulation_catholicsPerc": 1,
+    "highestCatholicPopulation_catholics": 100
+  },
+  {
+    "country": "China",
+    "highestCatholicPopulation_catholicsPerc": 0.87,
+    "highestCatholicPopulation_catholics": 12000000
+  },
+  {
+    "country": "Pakistan",
+    "highestCatholicPopulation_catholicsPerc": 0.8,
+    "highestCatholicPopulation_catholics": 1656000
+  },
+  {
+    "country": "Georgia",
+    "highestCatholicPopulation_catholicsPerc": 0.8,
+    "highestCatholicPopulation_catholics": 84193
+  },
+  {
+    "country": "Ethiopia",
+    "highestCatholicPopulation_catholicsPerc": 0.7,
+    "highestCatholicPopulation_catholics": 584426
+  },
+  {
+    "country": "Libya",
+    "highestCatholicPopulation_catholicsPerc": 0.7,
+    "highestCatholicPopulation_catholics": 40358
+  },
+  {
+    "country": "Denmark",
+    "highestCatholicPopulation_catholicsPerc": 0.7,
+    "highestCatholicPopulation_catholics": 40000
+  },
+  {
+    "country": "Kazakhstan",
+    "highestCatholicPopulation_catholicsPerc": 0.6,
+    "highestCatholicPopulation_catholics": 91115
+  },
+  {
+    "country": "Laos",
+    "highestCatholicPopulation_catholicsPerc": 0.6,
+    "highestCatholicPopulation_catholics": 37302
+  },
+  {
+    "country": "Russia",
+    "highestCatholicPopulation_catholicsPerc": 0.5,
+    "highestCatholicPopulation_catholics": 717101
+  },
+  {
+    "country": "Bulgaria",
+    "highestCatholicPopulation_catholicsPerc": 0.5,
+    "highestCatholicPopulation_catholics": 37251
+  },
+  {
+    "country": "Moldova",
+    "highestCatholicPopulation_catholicsPerc": 0.5,
+    "highestCatholicPopulation_catholics": 20494
+  },
+  {
+    "country": "Jordan",
+    "highestCatholicPopulation_catholicsPerc": 0.4,
+    "highestCatholicPopulation_catholics": 23038
+  },
+  {
+    "country": "Greece",
+    "highestCatholicPopulation_catholicsPerc": 0.4,
+    "highestCatholicPopulation_catholics": 44683
+  },
+  {
+    "country": "Iraq",
+    "highestCatholicPopulation_catholicsPerc": 0.35,
+    "highestCatholicPopulation_catholics": 133000
+  },
+  {
+    "country": "Japan",
+    "highestCatholicPopulation_catholicsPerc": 0.3,
+    "highestCatholicPopulation_catholics": 382251
+  },
+  {
+    "country": "Thailand",
+    "highestCatholicPopulation_catholicsPerc": 0.3,
+    "highestCatholicPopulation_catholics": 196333
+  },
+  {
+    "country": "Estonia",
+    "highestCatholicPopulation_catholicsPerc": 0.3,
+    "highestCatholicPopulation_catholics": 3998
+  },
+  {
+    "country": "Tunisia",
+    "highestCatholicPopulation_catholicsPerc": 0.2,
+    "highestCatholicPopulation_catholics": 22000
+  },
+  {
+    "country": "Finland",
+    "highestCatholicPopulation_catholicsPerc": 0.2,
+    "highestCatholicPopulation_catholics": 12434
+  },
+  {
+    "country": "Djibouti",
+    "highestCatholicPopulation_catholicsPerc": 0.2,
+    "highestCatholicPopulation_catholics": 953
+  },
+  {
+    "country": "Comoros",
+    "highestCatholicPopulation_catholicsPerc": 0.2,
+    "highestCatholicPopulation_catholics": 1600
+  },
+  {
+    "country": "Algeria",
+    "highestCatholicPopulation_catholicsPerc": 0.14,
+    "highestCatholicPopulation_catholics": 45000
+  },
+  {
+    "country": "Egypt",
+    "highestCatholicPopulation_catholicsPerc": 0.1,
+    "highestCatholicPopulation_catholics": 77505
+  },
+  {
+    "country": "Niger",
+    "highestCatholicPopulation_catholicsPerc": 0.1,
+    "highestCatholicPopulation_catholics": 11665
+  },
+  {
+    "country": "Cambodia",
+    "highestCatholicPopulation_catholicsPerc": 0.1,
+    "highestCatholicPopulation_catholics": 10000
+  },
+  {
+    "country": "Kyrgyzstan",
+    "highestCatholicPopulation_catholicsPerc": 0.1,
+    "highestCatholicPopulation_catholics": 5146
+  },
+  {
+    "country": "Mauritania",
+    "highestCatholicPopulation_catholicsPerc": 0.1,
+    "highestCatholicPopulation_catholics": 3086
+  },
+  {
+    "country": "Bangladesh",
+    "highestCatholicPopulation_catholicsPerc": 0.07,
+    "highestCatholicPopulation_catholics": 110000
+  },
+  {
+    "country": "Morocco",
+    "highestCatholicPopulation_catholicsPerc": 0.07,
+    "highestCatholicPopulation_catholics": 22908
+  },
+  {
+    "country": "Bhutan",
+    "highestCatholicPopulation_catholicsPerc": 0.06,
+    "highestCatholicPopulation_catholics": 1339
+  },
+  {
+    "country": "Western Sahara",
+    "highestCatholicPopulation_catholicsPerc": 0.06,
+    "highestCatholicPopulation_catholics": 163
+  },
+  {
+    "country": "Turkey",
+    "highestCatholicPopulation_catholicsPerc": 0.05,
+    "highestCatholicPopulation_catholics": 35000
+  },
+  {
+    "country": "Mongolia",
+    "highestCatholicPopulation_catholicsPerc": 0.04,
+    "highestCatholicPopulation_catholics": 1116
+  },
+  {
+    "country": "Nepal",
+    "highestCatholicPopulation_catholicsPerc": 0.03,
+    "highestCatholicPopulation_catholics": 8302
+  },
+  {
+    "country": "Azerbaijan",
+    "highestCatholicPopulation_catholicsPerc": 0.03,
+    "highestCatholicPopulation_catholics": 2574
+  },
+  {
+    "country": "Iran",
+    "highestCatholicPopulation_catholicsPerc": 0.02,
+    "highestCatholicPopulation_catholics": 13603
+  },
+  {
+    "country": "Yemen",
+    "highestCatholicPopulation_catholicsPerc": 0.02,
+    "highestCatholicPopulation_catholics": 4145
+  },
+  {
+    "country": "Maldives",
+    "highestCatholicPopulation_catholicsPerc": 0.02,
+    "highestCatholicPopulation_catholics": 80
+  },
+  {
+    "country": "Uzbekistan",
+    "highestCatholicPopulation_catholicsPerc": 0.01,
+    "highestCatholicPopulation_catholics": 2685
+  },
+  {
+    "country": "North Korea",
+    "highestCatholicPopulation_catholicsPerc": 0.01,
+    "highestCatholicPopulation_catholics": 2291
+  },
+  {
+    "country": "Tajikistan",
+    "highestCatholicPopulation_catholicsPerc": 0.01,
+    "highestCatholicPopulation_catholics": 1000
+  },
+  {
+    "country": "Turkmenistan",
+    "highestCatholicPopulation_catholicsPerc": 0.01,
+    "highestCatholicPopulation_catholics": 500
+  },
+  {
+    "country": "Somalia",
+    "highestCatholicPopulation_catholicsPerc": 0.001,
+    "highestCatholicPopulation_catholics": 100
+  },
+  {
+    "country": "Afghanistan",
+    "highestCatholicPopulation_catholicsPerc": 0.0003,
+    "highestCatholicPopulation_catholics": 100
+  }
+]
