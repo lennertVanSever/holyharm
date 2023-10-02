@@ -32,7 +32,7 @@ const customCoordinates = {
 };
 
 // Initialize map
-const map = L.map('map').setView([0, 0], 2);
+const map = L.map('map', { zoomControl: false, zoomSnap: 0.2 }).setView([0, 0], 2);
 
 // Initialize tooltip data arrays
 let tooltipData = [];
@@ -44,6 +44,7 @@ const isOverlapping = (el1, el2) => !(el1.getBoundingClientRect().right < el2.ge
     el1.getBoundingClientRect().left > el2.getBoundingClientRect().right ||
     el1.getBoundingClientRect().bottom < el2.getBoundingClientRect().top ||
     el1.getBoundingClientRect().top > el2.getBoundingClientRect().bottom);
+
 const removeOverlappingTooltips = tooltips => {
     // Sort tooltips by number of victims in descending order
     tooltips.sort((a, b) => b.victims - a.victims);

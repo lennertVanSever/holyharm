@@ -4,11 +4,15 @@
 <head>
   <title>Reported Child Abuse in the Catholic Church by Country</title>
   <meta name="description"
-    content="An in-depth analysis of reported child abuse in the Catholic Church, categorized by country and continent.">
+    content="A global close-up on reported child abuse in the Catholic Church, broken down by country and continent.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <meta name="keywords" content="Catholic Church, Child Abuse, Statistics, Country">
   <link rel="canonical" href="https://church-abuse.org/" />
+  <meta property="og:title" content="Reported Child Abuse in the Catholic Church by Country">
+  <meta property="og:description"
+    content="A global close-up on reported child abuse in the Catholic Church, broken down by country and continent.">
+  <meta property="og:image" content="banner.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -30,6 +34,8 @@
 
     h1 {
       text-align: center;
+      margin-top: 5px;
+      margin-bottom: 10px;
     }
 
     #map {
@@ -299,7 +305,7 @@
 
 <body>
   <h1>​† Reported Child Abuse in the Catholic Church ​† </h1>
-  <div id="map" style="height: calc(100vh - 200px)">
+  <div id="map" style="height: calc(100vh - 170px)">
     <div class="loader" id="loader">
       <svg class="loader-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
         <rect class="loader-rect" x="45" y="0" width="10" height="100" />
@@ -729,34 +735,18 @@
     <p>The data is collected from various credible sources including governmental reports, academic studies, and
       reputable news outlets. Every data point is carefully verified before being included.</p>
 
-    <h3>2. How frequently is the data updated?</h3>
-    <p>The data is updated as soon as we obtain new credible information for a given country. We aim to keep the
-      dataset as up-to-date as possible. For transparency and credibility, all updates are documented and can be
-      viewed on our GitHub repository: <a
-        href="https://github.com/lennertVanSever/church-abuse">https://github.com/lennertVanSever/church-abuse</a>.
-    </p>
-
+    <h3>2. Why is my country's data wrong or not available?</h3>
+    <p>We do our best to gather accurate information, but sometimes the data for a specific country might be missing or
+      not quite right. This could happen for a variety of reasons, such as limited public information or inconsistencies
+      in the sources we have. If you know of better or more current data for a country, we'd really appreciate it if you
+      could share it with us on our <a href="https://github.com/lennertVanSever/church-abuse">GitHub repository</a>.</p>
     <h3>3. How can I contribute to the project?</h3>
     <p>The project is open-source and hosted on GitHub. Anyone can open an issue, express concerns, or ask questions
       about the data. Contributions in the form of code or data are also welcome. You can access the <a
         href="https://github.com/lennertVanSever/church-abuse">GitHub
         repository</a>.</p>
-    <h3>4. Are there any limitations to the data?</h3>
-    <p>While we strive for accuracy, the data is subject to the availability of information and may not be fully
-      comprehensive or up-to-date. Always refer to the original sources for the most accurate and detailed
-      information.</p>
 
-    <h3>5. How is the data visualized?</h3>
-    <p>We use various forms of data visualization such as tables and pie charts to make the information easily
-      understandable. All visualizations are designed to be mobile-friendly.</p>
 
-    <h3>6. Who is behind this project?</h3>
-    <p>This project is a community effort and contributions come from various individuals who are committed to
-      bringing transparency to this issue.</p>
-
-    <h3>7. How can I contact you for more information?</h3>
-    <p>You can open an issue on our <a href="https://github.com/lennertVanSever/church-abuse">GitHub repository</a>
-      for any questions or concerns.</p>
   </section>
 
   <section id="download-section">
@@ -792,6 +782,14 @@
     <p>Feel free to reach out on <a href="https://github.com/lennertVanSever/church-abuse" target="_blank">GitHub</a>.
     </p>
   </section>
+
+  <section id="license-section">
+    <h2>License of Use</h2>
+    <p>We're using what's known as the UNLICENSE for this project. That basically means you can do whatever you want
+      with the data and code—use it, change it, share it, you name it. For the nitty-gritty details, check out the <a
+        href="./UNLICENSE.txt" target="_blank">UNLICENSE.txt</a> file.</p>
+  </section>
+
 
 
   <!-- Footer -->
