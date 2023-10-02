@@ -32,7 +32,7 @@ const customCoordinates = {
 };
 
 // Initialize map
-const map = L.map('map', { zoomControl: false, zoomSnap: 0.2 }).setView([0, 0], 2);
+const map = L.map('map').setView([0, 0], 2);
 
 // Initialize tooltip data arrays
 let tooltipData = [];
