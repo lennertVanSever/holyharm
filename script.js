@@ -44,18 +44,30 @@ const isOverlapping = (el1, el2) => !(el1.getBoundingClientRect().right < el2.ge
     el1.getBoundingClientRect().left > el2.getBoundingClientRect().right ||
     el1.getBoundingClientRect().bottom < el2.getBoundingClientRect().top ||
     el1.getBoundingClientRect().top > el2.getBoundingClientRect().bottom);
-
 const removeOverlappingTooltips = tooltips => {
-    tooltips.forEach((t1, i) => {
-        tooltips.forEach((t2, j) => {
-            if (i !== j && isOverlapping(t1.element, t2.element)) {
-                const minVictimTooltip = t1.victims < t2.victims ? t1 : t2;
-                minVictimTooltip.tooltip.remove();
-                tooltips.splice(tooltips.indexOf(minVictimTooltip), 1);
+    // Sort tooltips by number of victims in descending order
+    tooltips.sort((a, b) => b.victims - a.victims);
+
+    let i = 0;
+    while (i < tooltips.length) {
+        let t1 = tooltips[i];
+        let j = i + 1;
+
+        while (j < tooltips.length) {
+            let t2 = tooltips[j];
+
+            if (isOverlapping(t1.element, t2.element)) {
+                t2.tooltip.remove();
+                tooltips.splice(j, 1);  // Remove t2 from array
+            } else {
+                j++;  // Only increment if no overlap was found
             }
-        });
-    });
+        }
+
+        i++;
+    }
 };
+
 
 const isURL = str => {
     try {
@@ -100,7 +112,8 @@ const createPopupContent = (countryData) => {
     return `<b>${countryData.country}</b><br>Victims: ${formattedVictims}<br>${referencesHtml}`;
 };
 
-const createAndStoreTooltip = (latlng, formattedVictims) => {
+const createAndStoreTooltip = (latlng, victims) => {
+    const formattedVictims = victims.toLocaleString();
     const tooltip = L.tooltip({
         permanent: true,
         className: 'country-label',
@@ -109,7 +122,7 @@ const createAndStoreTooltip = (latlng, formattedVictims) => {
     }).setLatLng(latlng).setContent(formattedVictims).addTo(map);
 
     const tooltipElement = tooltip.getElement();
-    const tooltipInfo = { tooltip, victims: formattedVictims, element: tooltipElement };
+    const tooltipInfo = { tooltip, victims, formattedVictims, element: tooltipElement };
 
     initialTooltipData.push(tooltipInfo);
     tooltipData.push(tooltipInfo);
@@ -137,8 +150,7 @@ const fetchDataAndRender = async () => {
                 layer.bindPopup(popupContent, {
                     offset: L.point(0, -10)
                 });
-
-                createAndStoreTooltip(latlng, countryData.victims.toLocaleString());
+                createAndStoreTooltip(latlng, countryData?.victims);
             }
         }
     }).addTo(map);
@@ -158,7 +170,6 @@ const adjustTooltipSize = () => {
     const zoomLevel = map.getZoom();
     const tooltipElements = document.querySelectorAll('.country-label');
     let fontSize;
-    console.log('zoomLevel', zoomLevel)
     if (zoomLevel <= 3) {
         fontSize = '10px';
     } else if (zoomLevel <= 5) {
